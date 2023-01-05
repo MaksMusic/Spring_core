@@ -18,9 +18,8 @@
 
     <bean id = "_human"
           class="com.example.spring_core.Human">
-          <constructor-arg ref ="petCat"/>
+        <property name="pet" ref="petCat"/>
     </bean>
-
 
 
 </beans>

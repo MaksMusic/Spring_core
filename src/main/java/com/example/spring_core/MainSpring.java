@@ -11,8 +11,6 @@ public class MainSpring {
         System.out.println("2 Buy a cat");
         Pet pet;
 
-
-
         // Получить объект из Спринг контейнера (Application context)
         ClassPathXmlApplicationContext context = //Спринг контейнер  (Application Context)
                 new ClassPathXmlApplicationContext("applicationContext.xml");
@@ -30,8 +28,5 @@ public class MainSpring {
 
         Human human = context.getBean("_human",Human.class);
         human.myPet();
-
-
-
     }
 }
