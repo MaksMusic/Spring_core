@@ -3,6 +3,6 @@ package com.example.spring_core;
 public class Dog implements Pet {
    @Override
     public void say(){
-        System.out.println("hello");
+        System.out.println("Ppppp");
     }
 }

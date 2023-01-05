@@ -16,4 +16,11 @@
           class="com.example.spring_core.Cat">
     </bean>
 
+    <bean id = "_human"
+          class="com.example.spring_core.Human">
+          <constructor-arg ref ="petCat"/>
+    </bean>
+
+
+
 </beans>
