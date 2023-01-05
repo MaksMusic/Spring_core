@@ -26,6 +26,7 @@ public class MainSpring {
         //Dependensy injection спринг создает оъбект human в внедряет в него объект объект Pet
         //выбор животного идет через Application Context (файл конфигурации)
 
+        //сейчас петс внедряется через сетер
         Human human = context.getBean("_human",Human.class);
         human.myPet();
     }
