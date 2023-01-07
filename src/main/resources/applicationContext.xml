@@ -16,9 +16,12 @@
           class="com.example.spring_core.Cat">
     </bean>
 
-    <bean id = "_human"
-          class="com.example.spring_core.Human">
+    <bean id = "_human" class="com.example.spring_core.Human">
         <property name="pet" ref="petCat"/>
+        <property name="name" value="Tomas"/>
+        <property name="surname" value="Stivinno"/>
+        <property name="age" value="30"/>
+
     </bean>
 
 
