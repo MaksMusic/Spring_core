@@ -8,7 +8,7 @@ public class Dog implements Pet {
 
     @Override
     public void say(){
-        System.out.println("Ppppp i am dog");
+        System.out.println("dog");
     }
 
     public void init(){

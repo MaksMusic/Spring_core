@@ -8,6 +8,6 @@ public class Cat implements Pet{
 
     @Override
     public void say() {
-        System.out.println("i am cat");
+        System.out.println("cat");
     }
 }
