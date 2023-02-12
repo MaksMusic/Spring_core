@@ -7,21 +7,25 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
+<!--    import properties-->
     <context:property-placeholder location="classpath:application.properties"/>
 
+<!--    method init destroy bean singletone -->
     <bean id="petDog"
-          class="com.example.spring_core.Dog"
+          class="com.example.spring_core.items_and_objects.Dog"
           init-method="init"
           destroy-method="destroy">
 
     </bean>
 
+<!--    beean prototype-->
     <bean id="petCat"
           scope="prototype"
-          class="com.example.spring_core.Cat">
+          class="com.example.spring_core.items_and_objects.Cat">
     </bean>
 
-    <bean id="_human" class="com.example.spring_core.Human">
+<!--    bean prototype DI setter-->
+    <bean id="_human" class="com.example.spring_core.items_and_objects.Human">
         <property name="pet" ref="petCat"/>
         <property name="name" value="${human.name}"/>
         <property name="surname" value="Stivinno"/>

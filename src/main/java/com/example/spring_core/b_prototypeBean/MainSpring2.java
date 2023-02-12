@@ -1,10 +1,12 @@
-package com.example.spring_core;
+package com.example.spring_core.b_prototypeBean;
 
+import com.example.spring_core.items_and_objects.Cat;
+import com.example.spring_core.items_and_objects.Dog;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainSpring2 {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext2.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("prototypeBean/applicationContext2.xml");
         //Singleton (default)
         Cat cat = context.getBean("petCat", Cat.class);
         Cat cat2 = context.getBean("petCat", Cat.class);

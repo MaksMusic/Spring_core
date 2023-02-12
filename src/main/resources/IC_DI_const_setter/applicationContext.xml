@@ -10,19 +10,25 @@
     <context:property-placeholder location="classpath:application.properties"/>
 
     <bean id="petDog"
-          class="com.example.spring_core.Dog">
+          class="com.example.spring_core.items_and_objects.Dog">
     </bean>
 
     <bean id="petCat"
-          class="com.example.spring_core.Cat">
+          class="com.example.spring_core.items_and_objects.Cat">
     </bean>
 
-    <bean id = "_human" class="com.example.spring_core.Human">
+<!--    DI setter-->
+    <bean id = "_human" class="com.example.spring_core.items_and_objects.Human">
         <property name="pet" ref="petCat"/>
         <property name="name" value="${human.name}"/>
         <property name="surname" value="Stivinno"/>
         <property name="age" value="${human.age}"/>
 
+    </bean>
+
+<!--    DI constructor-->
+    <bean id="_auto" class="com.example.spring_core.items_and_objects.Auto">
+        <constructor-arg name="model" value="Mersedes"/>
     </bean>
 
 </beans>

@@ -1,4 +1,8 @@
-package com.example.spring_core;
+package com.example.spring_core.a_IC_DI_const_setter;
+
+import com.example.spring_core.items_and_objects.Cat;
+import com.example.spring_core.items_and_objects.Dog;
+import com.example.spring_core.items_and_objects.Pet;
 
 import java.util.Scanner;
 

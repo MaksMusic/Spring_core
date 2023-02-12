@@ -1,4 +1,4 @@
-package com.example.spring_core;
+package com.example.spring_core.items_and_objects;
 
 public class Dog implements Pet {
 
