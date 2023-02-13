@@ -1,4 +1,4 @@
-package com.example.spring_core.a_IC_DI_const_setter;
+package com.example.spring_core.a_DI_const_setter;
 
 import com.example.spring_core.items_and_objects.Auto;
 import com.example.spring_core.items_and_objects.Human;
@@ -16,7 +16,7 @@ public class MainSpring {
 
         // Получить объект из Спринг контейнера (Application context)
         ClassPathXmlApplicationContext context = //Спринг контейнер  (Application Context)
-                new ClassPathXmlApplicationContext("IC_DI_const_setter/applicationContext.xml");
+                new ClassPathXmlApplicationContext("DI_const_setter/applicationContext.xml");
 
         //Inversion of Control - спринг создает оъбект human и сам добавляет в него объект Pet
 //        if (scanner.nextLine().equals("1")){
