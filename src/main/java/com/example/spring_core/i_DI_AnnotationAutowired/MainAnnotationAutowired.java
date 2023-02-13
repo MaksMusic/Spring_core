@@ -9,7 +9,7 @@ public class MainAnnotationAutowired {
                 new ClassPathXmlApplicationContext("DI_AnnotationAutowired/applicationContextAutowired.xml");
 
         HumanAnnotation human = context.getBean("HumanAnnotation", HumanAnnotation.class);
-        //System.out.println(human.getCatAnnatation().getName());
         human.getPet().say();
+
     }
 }
