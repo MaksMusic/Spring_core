@@ -1,15 +1,15 @@
-package com.example.spring_core.items_and_objects;
+package com.example.spring_core.items_and_objects.annotaion;
 
-import com.example.spring_core.items_and_objects.annotaion.AutoAnnotation;
+import com.example.spring_core.items_and_objects.Pet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component("HumanAnnotation")
+//@Component("HumanAnnotation")
 public class HumanAnnotation {
 
     private Pet pet;
 
-    @Autowired
+ //   @Autowired
     public HumanAnnotation(Pet pet) {
         this.pet = pet;
     }

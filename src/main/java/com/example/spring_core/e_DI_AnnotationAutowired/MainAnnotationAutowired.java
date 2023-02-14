@@ -1,6 +1,6 @@
-package com.example.spring_core.i_DI_AnnotationAutowired;
+package com.example.spring_core.e_DI_AnnotationAutowired;
 
-import com.example.spring_core.items_and_objects.HumanAnnotation;
+import com.example.spring_core.items_and_objects.annotaion.HumanAnnotation;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainAnnotationAutowired {

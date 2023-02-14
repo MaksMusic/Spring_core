@@ -3,7 +3,7 @@ package com.example.spring_core.items_and_objects.annotaion;
 import com.example.spring_core.items_and_objects.Pet;
 import org.springframework.stereotype.Component;
 
-
+@Component("cat")
 public class CatAnnatation implements Pet {
     private String name = "Cat";
 
