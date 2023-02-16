@@ -3,12 +3,15 @@ package com.example.spring_core.items_and_objects.annotaion;
 import com.example.spring_core.items_and_objects.Pet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component("student")
 public class StudentAnnotation {
 
-
+   // @Value("Tomas")
+   @Value("Tomas")
+    private String name;
     private final Pet pet;
     private final Pet pet2;
 
@@ -24,5 +27,8 @@ public class StudentAnnotation {
         pet2.say();
     }
 
+    public String getName() {
+        return "My name " + name;
+    }
 
 }

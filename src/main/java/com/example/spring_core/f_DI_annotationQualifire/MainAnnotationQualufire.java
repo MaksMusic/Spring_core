@@ -11,7 +11,7 @@ public class MainAnnotationQualufire {
 
         StudentAnnotation student = context.getBean("student",StudentAnnotation.class);
         student.infoStudent();
-
+        System.out.println(student.getName());
 
     }
 }
