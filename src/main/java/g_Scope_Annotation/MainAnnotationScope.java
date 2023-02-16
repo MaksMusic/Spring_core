@@ -23,5 +23,7 @@ public class MainAnnotationScope {
         System.out.println(teacher);
         System.out.println(teacher2);
 
+        context.close();
+
     }
 }

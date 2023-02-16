@@ -1,6 +1,8 @@
 package com.example.spring_core.items_and_objects.annotaion;
 
 import com.example.spring_core.items_and_objects.Pet;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -29,6 +31,16 @@ public class StudentAnnotation {
 
     public String getName() {
         return "My name " + name;
+    }
+
+    @PostConstruct
+    public void initMethod(){
+        System.out.println("init method");
+    }
+
+    @PreDestroy
+    public void destroyMethod(){
+        System.out.println("destroy method");
     }
 
 }

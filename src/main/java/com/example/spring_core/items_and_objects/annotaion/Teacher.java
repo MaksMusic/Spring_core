@@ -1,5 +1,7 @@
 package com.example.spring_core.items_and_objects.annotaion;
 
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -13,4 +15,7 @@ public class Teacher {
     public void printHello(){
         System.out.println("I am teacher,my name is "+name);
     }
+
+
+
 }
