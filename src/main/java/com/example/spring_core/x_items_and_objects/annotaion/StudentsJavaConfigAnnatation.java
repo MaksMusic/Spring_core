@@ -1,23 +1,20 @@
-package com.example.spring_core.items_and_objects.annotaion;
+package com.example.spring_core.x_items_and_objects.annotaion;
 
-import com.example.spring_core.items_and_objects.Pet;
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component("student")
-public class StudentAnnotation {
+@Component("studentConfig")
+public class StudentsJavaConfigAnnatation {
 
-   // @Value("Tomas")
-   @Value("Tomas")
+    @Value("Tomas")
     private String name;
     private final Pet pet;
     private final Pet pet2;
 
-    public StudentAnnotation(@Qualifier("tigr") Pet pet,@Qualifier("cat") Pet pet2) {
+    public StudentsJavaConfigAnnatation(@Qualifier("tigr") Pet pet, @Qualifier("cat") Pet pet2) {
         this.pet = pet;
         this.pet2 = pet2;
     }
@@ -42,5 +39,4 @@ public class StudentAnnotation {
     public void destroyMethod(){
         System.out.println("destroy method");
     }
-
 }

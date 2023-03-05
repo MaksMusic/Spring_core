@@ -1,6 +1,6 @@
 package com.example.spring_core.d_DI_annotation;
 
-import com.example.spring_core.items_and_objects.annotaion.Tigr;
+import com.example.spring_core.x_items_and_objects.annotaion.Tigr;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainSpringAnnotation {

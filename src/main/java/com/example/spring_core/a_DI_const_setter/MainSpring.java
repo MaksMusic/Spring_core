@@ -1,8 +1,8 @@
 package com.example.spring_core.a_DI_const_setter;
 
-import com.example.spring_core.items_and_objects.Auto;
-import com.example.spring_core.items_and_objects.Human;
-import com.example.spring_core.items_and_objects.Pet;
+import com.example.spring_core.x_items_and_objects.xmlConfigItems.Auto;
+import com.example.spring_core.x_items_and_objects.xmlConfigItems.Human;
+import com.example.spring_core.x_items_and_objects.annotaion.Pet;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Scanner;

@@ -5,9 +5,17 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class SpringCoreApplicationTests {
+    @Test
+    public void h1(){
+
+    }
+
 
     @Test
     void contextLoads() {
+
+
     }
 
 }
+

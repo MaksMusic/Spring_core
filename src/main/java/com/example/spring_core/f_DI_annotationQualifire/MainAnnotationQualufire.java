@@ -1,7 +1,6 @@
 package com.example.spring_core.f_DI_annotationQualifire;
 
-import com.example.spring_core.items_and_objects.annotaion.HumanAnnotation;
-import com.example.spring_core.items_and_objects.annotaion.StudentAnnotation;
+import com.example.spring_core.x_items_and_objects.annotaion.StudentAnnotation;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainAnnotationQualufire {

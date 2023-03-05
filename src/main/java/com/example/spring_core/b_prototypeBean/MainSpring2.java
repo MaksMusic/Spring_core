@@ -1,7 +1,7 @@
 package com.example.spring_core.b_prototypeBean;
 
-import com.example.spring_core.items_and_objects.Cat;
-import com.example.spring_core.items_and_objects.Dog;
+import com.example.spring_core.x_items_and_objects.xmlConfigItems.Cat;
+import com.example.spring_core.x_items_and_objects.xmlConfigItems.Dog;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainSpring2 {

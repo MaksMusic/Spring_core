@@ -1,8 +1,4 @@
-package com.example.spring_core.items_and_objects.annotaion;
-
-import com.example.spring_core.items_and_objects.Pet;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+package com.example.spring_core.x_items_and_objects.annotaion;
 
 //@Component("HumanAnnotation")
 public class HumanAnnotation {

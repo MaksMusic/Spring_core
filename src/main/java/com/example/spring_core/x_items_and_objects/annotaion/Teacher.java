@@ -1,7 +1,5 @@
-package com.example.spring_core.items_and_objects.annotaion;
+package com.example.spring_core.x_items_and_objects.annotaion;
 
-import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;

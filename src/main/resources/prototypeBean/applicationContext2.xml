@@ -11,18 +11,18 @@
 
 <!--    Bean prototype-->
     <bean id="petDog"
-          class="com.example.spring_core.items_and_objects.Dog"
+          class="com.example.spring_core.x_items_and_objects.xmlConfigItems.Dog"
           scope="prototype">
     </bean>
 
 
 <!--    Bean singleton-->
     <bean id="petCat"
-          class="com.example.spring_core.items_and_objects.Cat">
+          class="com.example.spring_core.x_items_and_objects.xmlConfigItems.Cat">
     </bean>
 
     <!--    Bean singleton   DI setter-->
-    <bean id = "_human" class="com.example.spring_core.items_and_objects.Human">
+    <bean id = "_human" class="com.example.spring_core.x_items_and_objects.xmlConfigItems.Human">
         <property name="pet" ref="petCat"/>
         <property name="name" value="${human.name}"/>
         <property name="surname" value="Stivinno"/>

@@ -1,6 +1,4 @@
-package com.example.spring_core.items_and_objects;
-
-import org.springframework.beans.factory.annotation.Autowired;
+package com.example.spring_core.x_items_and_objects.xmlConfigItems;
 
 public class Auto {
     private String model;

@@ -1,4 +1,7 @@
-package com.example.spring_core.items_and_objects;
+package com.example.spring_core.x_items_and_objects.xmlConfigItems;
+
+import com.example.spring_core.x_items_and_objects.annotaion.Pet;
+
 
 public class Dog implements Pet {
 

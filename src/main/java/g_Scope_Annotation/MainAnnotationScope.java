@@ -1,7 +1,7 @@
 package g_Scope_Annotation;
 
-import com.example.spring_core.items_and_objects.annotaion.StudentAnnotation;
-import com.example.spring_core.items_and_objects.annotaion.Teacher;
+import com.example.spring_core.x_items_and_objects.annotaion.StudentAnnotation;
+import com.example.spring_core.x_items_and_objects.annotaion.Teacher;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainAnnotationScope {

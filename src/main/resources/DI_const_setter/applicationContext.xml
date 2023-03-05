@@ -10,15 +10,15 @@
     <context:property-placeholder location="classpath:application.properties"/>
 
     <bean id="petDog"
-          class="com.example.spring_core.items_and_objects.Dog">
+          class="com.example.spring_core.x_items_and_objects.xmlConfigItems.Dog">
     </bean>
 
     <bean id="petCat"
-          class="com.example.spring_core.items_and_objects.Cat">
+          class="com.example.spring_core.x_items_and_objects.xmlConfigItems.Cat">
     </bean>
 
 <!--    DI setter-->
-    <bean id = "_human" class="com.example.spring_core.items_and_objects.Human">
+    <bean id = "_human" class="com.example.spring_core.x_items_and_objects.xmlConfigItems.Human">
         <property name="pet" ref="petCat"/>
         <property name="name" value="${human.name}"/>
         <property name="surname" value="Stivinno"/>
@@ -27,7 +27,7 @@
     </bean>
 
 <!--    DI constructor-->
-    <bean id="_auto" class="com.example.spring_core.items_and_objects.Auto">
+    <bean id="_auto" class="com.example.spring_core.x_items_and_objects.xmlConfigItems.Auto">
         <constructor-arg name="model" value="Mersedes"/>
     </bean>
 

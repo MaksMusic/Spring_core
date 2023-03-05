@@ -1,8 +1,8 @@
-package com.example.spring_core.items_and_objects;
+package com.example.spring_core.x_items_and_objects.annotaion;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("pet")
 public interface Pet {
     public void say();
 }

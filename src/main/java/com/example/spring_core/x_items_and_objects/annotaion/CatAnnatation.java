@@ -1,6 +1,5 @@
-package com.example.spring_core.items_and_objects.annotaion;
+package com.example.spring_core.x_items_and_objects.annotaion;
 
-import com.example.spring_core.items_and_objects.Pet;
 import org.springframework.stereotype.Component;
 
 @Component("cat")
